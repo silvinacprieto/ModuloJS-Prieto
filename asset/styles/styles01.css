@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  /*   border: 2px solid black; */
+}
+/* Footer style */
+.footerFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.figuresocial{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+.social{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.h4social{
+    width: 150px;
+}
