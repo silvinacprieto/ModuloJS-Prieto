@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /*   border: 2px solid black; */
+}
+/* Header Style */
+body{
+    height: 100vh;
+}
+/* header{
+    background-image: url(../images/fondo_header.jpg);
+    /* background-repeat: no-repeat; */
+
+.headerflex{
+    display: flex;
+    width: 100vw;
+    height: 30vh; 
+    justify-content: space-between;
+    align-items: center;
+
+}
+.headerdiv{
+    width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.encabezado{
+    font-style: italic;
+    letter-spacing: 4px;
+}
+.logoAEvents{
+    width: 150px;
+    object-fit: cover;
+}
+.navHeader{
+    display: flex;
+}
+.navMenu{
+    background-color: grey;  
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;    
+}
+
+/* Footer style */
+.footerFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    background-color: black;
+    color: white;
+    height: 10vh;
+}
+.figuresocial{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+.social{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.h4social{
+    width: 150px;
+}
