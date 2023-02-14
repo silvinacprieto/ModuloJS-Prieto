@@ -13,7 +13,7 @@ body{
     background-image: url(../images/fondo_header.jpg);
     /* background-repeat: no-repeat; */
 
-.headerflex{
+/* .headerflex{
     display: flex;
     width: 100vw;
     height: 30vh; 
@@ -27,14 +27,20 @@ body{
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-evenly;
+} */
+.encabezado1{
+    padding: 30px;
 }
-.encabezado{
-    font-style: italic;
+.encabezado2{
+    font-size: 3rem;
     letter-spacing: 4px;
+    padding: 30px;
 }
 .logoAEvents{
-    width: 150px;
+    width: 300px;
+    padding: 30px;
     object-fit: cover;
+    background-color: rgb(43, 42, 42);
 }
 .navHeader{
     display: flex;
@@ -45,7 +51,7 @@ body{
     margin: 5px;
     text-align: center;
     text-decoration: none;
-    color: black;    
+    color: black;  
 }
 
 /* Footer style */
@@ -55,7 +61,7 @@ body{
     justify-content: space-between;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
-    background-color: black;
+    background-color: grey;
     color: white;
     height: 10vh;
 }
@@ -63,13 +69,27 @@ body{
     display: flex;
     justify-content: space-evenly;
     width: 300px;
+    margin: 0;
 }
 .social{
     width: 50px;
     height: 50px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .h4social{
     width: 150px;
 }
+
+/* Estilo stats.html */
+/* 
+.tablestats{
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-style: ridge;
+}
+.thprincipal{
+    border-collapse: collapse;
+    border-style: solid;
+} */
