@@ -21,7 +21,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./pastEvents.html">Past Events</a>
@@ -43,9 +43,32 @@
             <img class="social" src="./asset/images/angle-right-solid.svg" alt="Next">
         </div>
     </header>
-    <main class= "d-flex justify-content-evenly">
-        <div class="card" style="width: 25vw;">
-            <img src="./asset/images/marathon.jpg" class="card-img-top imgevents" alt="Marathon">
+    <main class= "d-flex flex-column justify-content-between">
+        <div class= "d-flex justify-content-evenly">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="category1" value="option1">
+                <label class="form-check-label" for="category1">Category 1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="category2" value="option2">
+                <label class="form-check-label" for="category2">Category 2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="category3" value="option1">
+                <label class="form-check-label" for="category3">Category 3</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="category4" value="option2">
+                <label class="form-check-label" for="category4">Category 4</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label for="id_search"></label>
+                <input type="search" name="search" id="id_search" value="search">
+              </div>
+        </div>
+        <div class= "d-flex justify-content-evenly align-items-baseline">    
+            <div class="card" style="width: 25vw;">
+                <img src="./asset/images/marathon.jpg" class="card-img-top imgevents" alt="Marathon">
             <div class="card-body">
               <h5 class="card-title">Marathon</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -68,6 +91,7 @@
               <a href="./details.html" class="btn btn-light">see more</a>
             </div>
           </div>
+        </div>
     </main>
     <footer class="footerFlex">
         <figure class="figuresocial">
