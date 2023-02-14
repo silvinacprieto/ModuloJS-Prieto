@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./asset/styles/styles01.css">
     <title>Amazing Events</title>
 </head>
-<body>
+<body class="d-flex flex-column justify-content-between">
     <header >
         <div class="d-flex justify-content-between encabezado1">    
             <img src="./asset/images/logoAmazingEvents.png" class="rounded float-start logoAEvents" alt="Logo Amazing Events">
@@ -21,7 +21,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./pastEvents.html">Past Events</a>
@@ -39,11 +39,36 @@
         </div>
         <div class="d-flex justify-content-between align-items-center">
             <img class="social" src="./asset/images/angle-left-solid.svg" alt="Previous">
-            <h1 class="text-center encabezado2">Past Events</h1>
+            <h1 class="text-center encabezado2">Past events</h1>
             <img class="social" src="./asset/images/angle-right-solid.svg" alt="Next">
         </div>
     </header>
-    <main></main>
+    <main class= "d-flex justify-content-evenly">
+        <div class="card" style="width: 25vw;">
+            <img src="./asset/images/marathon.jpg" class="card-img-top imgevents" alt="Marathon">
+            <div class="card-body">
+              <h5 class="card-title">Marathon</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="./details.html" class="btn btn-light">see more</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25vw;">
+            <img src="./asset/images/museumTour.jpg" class="card-img-top imgevents" alt="Musseum Tour">
+            <div class="card-body">
+              <h5 class="card-title">Musseum Tour</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="./details.html" class="btn btn-light">see more</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25vw;">
+            <img src="./asset/images/musicConcert.jpg" class="card-img-top imgevents" alt="Music Concert">
+            <div class="card-body">
+              <h5 class="card-title">Music Concert</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="./details.html" class="btn btn-light">see more</a>
+            </div>
+          </div>
+    </main>
     <footer class="footerFlex">
         <figure class="figuresocial">
             <img class="social" src="./asset/images/instagram.svg" alt="Instagram">
@@ -55,5 +80,4 @@
 <!-- <script src="./main.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-<script src="./main.js"></script>
 </html>
