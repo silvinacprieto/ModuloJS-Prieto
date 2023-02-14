@@ -85,4 +85,10 @@ body{
 .divContact{
     width: 50vw;
 }
+/* Estilo stats.html */ 
 
+.imgevents{
+    width: 25vw;
+    height: 25vh;
+    object-fit: cover; 
+}
