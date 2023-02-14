@@ -42,7 +42,7 @@ body{
     object-fit: cover;
     background-color: rgb(43, 42, 42);
 }
-.navHeader{
+/* .navHeader{
     display: flex;
 }
 .navMenu{
@@ -53,7 +53,7 @@ body{
     text-decoration: none;
     color: black;  
 }
-
+ */
 /* Footer style */
 .footerFlex{
     display: flex;
@@ -81,15 +81,8 @@ body{
     width: 150px;
 }
 
-/* Estilo stats.html */
-/* 
-.tablestats{
-    table-layout: auto;
-    width: 100%;
-    border-collapse: collapse;
-    border-style: ridge;
+/* Estilo contact.html */ 
+.divContact{
+    width: 50vw;
 }
-.thprincipal{
-    border-collapse: collapse;
-    border-style: solid;
-} */
+
