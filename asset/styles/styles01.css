@@ -40,7 +40,6 @@ body{
     width: 300px;
     padding: 30px;
     object-fit: cover;
-    background-color: rgb(43, 42, 42);
 }
 /* .navHeader{
     display: flex;
