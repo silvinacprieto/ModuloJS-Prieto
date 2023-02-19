@@ -46,32 +46,43 @@
             <img class="social" src="./asset/images/angle-right-solid.svg" alt="Next">
         </div>
     </header>
-    <main class= "d-flex flex-column justify-content-between">
+    <main class= "d-flex flex-column justify-content-evenly flex-grow-1">
         <div class= "container-fluid d-flex justify-content-evenly">
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="category1" value="option1">
-                <label class="form-check-label" for="category1">Category 1</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="category2" value="option2">
-                <label class="form-check-label" for="category2">Category 2</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="category3" value="option1">
-                <label class="form-check-label" for="category3">Category 3</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="category4" value="option2">
-                <label class="form-check-label" for="category4">Category 4</label>
-              </div>
-              <div class="form-check form-check-inline">
+          <div class="d-flex justify-content-evenly">
+            <div class="d-flex justify-content-evenly flex-wrap">
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input"  id="category1" value="option1">
+                    <label for="category1" class="form-check-label">Category 1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input"  id="category2" value="option2">
+                    <label for="category1" class="form-check-label">Category 2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input"  id="category3" value="option3">
+                    <label for="category1" class="form-check-label">Category 3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input"  id="category4" value="option4">
+                    <label for="category1" class="form-check-label">Category 4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input"  id="category5" value="option5">
+                    <label for="category1" class="form-check-label">Category 5</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input"  id="category6" value="option6">
+                    <label for="category1" class="form-check-label">Category 6</label>
+                </div>
+            </div>
+            <div>
                 <label for="id_search"></label>
-                <input type="search" name="search" id="id_search" value="search">
-              </div>
-              
+                <input type="search" name="search" id="id_search" value="search" class="flex-grow-2">
+            </div>
         </div>
-        <div class= "d-flex justify-content-evenly align-items-baseline">
-            <div class="card" style="width: 25vw;">
+        </div>
+        <div class= "d-flex justify-content-evenly flex-wrap">
+            <div class="card">
                 <img src="./asset/images/cinema.jpg" class="card-img-top imgevents" alt="cinema">
                 <div class="card-body">
                   <h5 class="card-title">Evento 1</h5>
@@ -79,7 +90,7 @@
                   <a href="./details.html" class="btn btn-light">see more</a>
                 </div>
               </div>
-              <div class="card" style="width: 25vw;">
+              <div class="card">
                 <img src="./asset/images/costumeParty.jpg" class="card-img-top imgevents" alt="Costume Party">
                 <div class="card-body">
                   <h5 class="card-title">Evento 2</h5>
@@ -87,7 +98,7 @@
                   <a href="./details.html" class="btn btn-light">see more</a>
                 </div>
               </div>
-              <div class="card" style="width: 25vw;">
+              <div class="card">
                 <img src="./asset/images/foodFair.jpg" class="card-img-top imgevents" alt="Food Fair">
                 <div class="card-body">
                   <h5 class="card-title">Evento 3</h5>
