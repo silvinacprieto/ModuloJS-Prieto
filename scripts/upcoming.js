@@ -6,14 +6,16 @@ let arrayEvents = [] /* uso iteraciones para crar las tarjetas a partir de la in
 for (let event of allEvents){
     if (! event.assistance) {
         let card = `
-        <div class="card">
-        <img src="${event.image}" class="card-img-top imgevents" alt="${event.name}">
-            <div class="card-body">
-                <h5 class="card-title">"${event.name}"</h5>
-                <p class="card-text">${event.description}</p>
-                <a href="./details.html" class="btn btn-light">see more</a>
-            </div>
-        </div>    
+        <div class="col mb-4">
+            <div class="card h-100">
+                <img src="${event.image}" class="card-img-top imgevents" alt="${event.name}">
+                <div class="card-body">
+                    <h5 class="card-title">"${event.name}"</h5>
+                    <p class="card-text">${event.description}</p>
+                    <a href="./details.html" class="btn btn-primary">see more</a>
+                </div>
+            </div>    
+        </div>
         `
         console.log(card)
         arrayEvents.push(card)
