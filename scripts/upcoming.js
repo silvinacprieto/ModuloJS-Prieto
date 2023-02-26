@@ -4,7 +4,7 @@ console.log(allEvents)
 
 let arrayEvents = [] /* uso iteraciones para crar las tarjetas a partir de la información en data.js */
 for (let event of allEvents){
-    if (! event.estimate) {
+    if (! event.assistance) {
         let card = `
         <div class="card">
         <img src="${event.image}" class="card-img-top imgevents" alt="${event.name}">
